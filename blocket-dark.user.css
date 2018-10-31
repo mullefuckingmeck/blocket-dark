@@ -1,0 +1,52 @@
+/* ==UserStyle==
+@name           blocket-dark
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Dark theme for blocket.se
+@author         mullefuckingmeck
+==/UserStyle== */
+
+@-moz-document url("https://www.blocket.se/") {
+    body {
+        background-color: #090909 !important;
+    }
+    
+    .npr , strong {
+       color: white !important;
+    }
+    
+    .panorama {
+        background-color: inherit !important;
+        border: none !important;
+    }
+    
+    #title {
+        color: white;
+    }
+    
+    .col-xs-6 {
+        visibility: hidden !important;
+    }
+    
+    .slide {
+        background-color: inherit !important;
+        border: none !important;
+    }
+    
+    #following .h6 {
+        color: white !important;
+    }
+    
+    .col-xs-12~ .col-xs-12+ .col-xs-12 {
+        visibility: hidden !important;
+        height: 0 !important;
+    }
+    
+    #blocket_footer .col-xs-12 , .pbxl {
+        background-color: #090909 !important;
+    }
+    
+    h6 {
+        color: white !important;
+    }
+}
